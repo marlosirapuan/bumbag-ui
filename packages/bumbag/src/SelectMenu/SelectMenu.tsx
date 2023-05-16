@@ -744,7 +744,7 @@ function SelectMenuButton(props: any) {
     label = selectedOptions?.[0]?.label;
   }
   if (selectedOptions.length > 1) {
-    label = `${selectedOptions?.[0]?.label} + ${selectedOptions.length - 1} other${
+    label = `${selectedOptions?.[0]?.label} + ${selectedOptions.length - 1} outro${
       selectedOptions.length - 1 > 1 ? 's' : ''
     }`;
   }
